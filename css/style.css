@@ -254,3 +254,47 @@ h6,
         width:150px;
     }
 }
+
+.btn-g {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 1rem;
+    background-color:var(--primary);
+    padding: 5px;
+    border-radius: 3px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+} 
+header{
+    background-color: #eee;
+    padding:1 rem;
+}
+header h1 {
+    font-size: 2.5rem;
+    line-height: 2;
+    color: var(--color-primary);
+}
+
+form input {
+    width: 20rem;
+    padding: .7rem;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+    border-bottom: 2px solid var(--color-sec);
+    margin-bottom: 1rem;
+} 
+
+
+
+.flex-style{
+    display:flex;
+    flex-direction:row;
+    align-items:flex-start;
+    justify-content:space-between;
+}
